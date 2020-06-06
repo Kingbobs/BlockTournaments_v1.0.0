@@ -1,0 +1,6 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Kingbobs/BlockTournaments_v1.0.0
+build-by-default: true
+branches:
+- master
+projects: []
+...
