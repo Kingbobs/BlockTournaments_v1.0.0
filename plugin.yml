@@ -2,6 +2,6 @@ name: BlockTournaments
 author: Kingbobs
 description: Block Mining Tournaments
 version: 1.0.0
-api: [3.0.0]
+api: [3.0.0, 4.0.0]
 main: Kingbobs\MainClass
 ...
