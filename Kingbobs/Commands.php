@@ -18,7 +18,7 @@ class Commands implements CommandExecutor{
 		$plugin->getCommand("bt")->setExecutor($this);
 	}
 
-	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) : bool{
 		$smcmd = strtolower($cmd);
 		$economy = $this->plugin->getServer()->getPluginManager()->getPlugin("EconomyAPI")->getInstance();
 		switch($smcmd){
